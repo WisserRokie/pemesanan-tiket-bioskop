@@ -1,0 +1,17 @@
+{
+  "name": "pemesanan-tiket-bioskop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api-service": "nodemon index.js"
+  },
+  "author": "yongky-per",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0"
+  }
+}
