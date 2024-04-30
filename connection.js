@@ -1,4 +1,4 @@
-const mysql = requere("mysql");
+const mysql = require("mysql");
 
 const db = mysql.createConnection({
     host : "sql6.freesqldatabase.com",
