@@ -3,8 +3,7 @@ const app = express()
 const port = 3002
 
 const  bodyParser = require('body-parser')
-const db = require('./config.js')
-const db = require('./connection.js')
+const db = require('./config')
 const response = require('./request.js')
 
 // penggunaan body parse
